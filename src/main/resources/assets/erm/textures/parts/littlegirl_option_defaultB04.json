@@ -1,0 +1,11 @@
+{
+	"texture":"littlegirl_head_defalut04.png",
+	"box1":{
+		"boxname":"BackHair",
+		"tex_pos":[28,42],
+		"box_siz":[8, 4, 2],
+		"box_pos":[-4, 0, 2],
+		"rot_pos":[0, 8, 0],
+		"rotation":[0,0,0]
+	}
+}

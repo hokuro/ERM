@@ -1,0 +1,18 @@
+sourceSets.main {
+    java.srcDirs project.projectDir.name
+    resources.srcDirs project.projectDir.name
+}
+tasks.withType(JavaCompile) {
+    doFirst {
+        if (sourceCompatibility == '1.7' && System.env.JDK7_HOME != null) {
+            options.fork = true
+            options.bootClasspath = "$System.env.JDK7_HOME/jre/lib/rt.jar"
+            options.bootClasspath += "$File.pathSeparator$System.env.JDK7_HOME/jre/lib/jsse.jar"
+            // use the line above as an example to add jce.jar
+            // and other specific JDK jars
+        }
+    }
+}
+version = "1.0"
+tasks.withType(Jar) {compileJava.options.encoding = 'UTF-8'}
+tasks.withType(Jar) {compileApiJava.options.encoding = 'UTF-8'}

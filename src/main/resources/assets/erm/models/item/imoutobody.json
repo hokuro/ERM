@@ -1,0 +1,120 @@
+{
+    "ambientocclusion": false,
+    "elements":[
+  { "from":[-3.5,-8,-0.5],
+    "to":  [3.5,-7,0.5],
+    "faces":{
+        "down":{"uv":[12,16,5,15],"texture":"#edge_body","cullface":"down"},
+        "north":{"uv":[5,15,12,16],"texture":"#north_body","cullface":"north"},
+        "south":{"uv":[5,15,12,16],"texture":"#south_body","cullface":"south"},
+        "west":{"uv":[5,15,6,16],"texture":"#edge_body","cullface":"west"},
+        "east":{"uv":[11,15,12,16],"texture":"#edge_body","cullface":"east"}
+    }
+  },
+  {  "from":[-5.5,-7,-0.5],
+     "to":  [5.5,-6,0.5],
+     "faces":{
+          "down":{"uv":[14,15,13,14],"texture":"#edge_body","cullface":"down"},
+          "up":{"uv":[3,14,4,15],"texture":"#edge_body"},
+          "north":{"uv":[3,14,14,15],"texture":"#north_body","cullface":"north"},
+          "south":{"uv":[3,14,14,15],"texture":"#south_body","cullface":"south"},
+          "west":{"uv":[4,14,5,15],"texture":"#edge_body","cullface":"west"},
+          "east":{"uv":[12.5,14,13.5,15],"texture":"#edge_body","cullface":"east"}
+    }
+  },
+  { "from":[-7.5,-6,-0.5],
+    "to":  [7.5,5,0.5],
+    "faces":{
+          "down":{"uv":[15,5,14,4],"texture":"#edge_body","cullface":"down"},
+          "up":{"uv":[2,4,3,5],"texture":"#edge_body","cullface":"up"},
+          "north":{"uv":[2,3,15,14],"texture":"#north_body","cullface":"north"},
+          "south":{"uv":[2,3,15,14],"texture":"#south_body","cullface":"south"},
+          "west":{"uv":[2,3,3,14],"texture":"#edge_body","cullface":"west"},
+          "east":{"uv":[14,3,15,14],"texture":"#edge_body","cullface":"east"}
+    }
+  },
+  { "from":[-5.5,5,-0.5],  
+    "to":  [5.5,6,0.5],
+    "faces":{
+          "down":{"uv":[15,5,14,4],"texture":"#edge_body","cullface":"down"},
+          "up":{"uv":[2,4,3,5],"texture":"#edge_body","cullface":"up"},
+          "north":{"uv":[3,2,14,3],"texture":"#north_body","cullface":"north"},
+          "south":{"uv":[3,2,14,3],"texture":"#south_body","cullface":"south"},
+          "west":{"uv":[3,2,4,3],"texture":"#edge_body","cullface":"west"},
+          "east":{"uv":[13,2,14,3],"texture":"#edge_body","cullface":"east"}
+    }
+  },
+  { "from":[-4.5,6,-0.5],
+    "to":  [4.5,7,0.5],
+    "faces":{
+          "down":{"uv":[15,5,14,4],"texture":"#edge_body"},
+          "up":{"uv":[2,4,3,5],"texture":"#edge_body","cullface":"up"},
+          "north":{"uv":[4,1,13,2],"texture":"#north_body","cullface":"north"},
+          "south":{"uv":[4,1,13,2],"texture":"#south_body","cullface":"south"},
+          "west":{"uv":[4,1,5,2],"texture":"#edge_body","cullface":"west"},
+          "east":{"uv":[11,1,12,2],"texture":"#edge_body","cullface":"east"}
+    }
+  },
+  { "from":[-1.5,7,-0.5],
+    "to":  [1.5,8,0.5],
+    "faces":{
+          "down":{"uv":[10,1,7,0],"texture":"#edge_body"},
+          "up":{"uv":[7,0,10,1],"texture":"#edge_body","cullface":"up"},
+          "north":{"uv":[7,0,10,1],"texture":"#north_body","cullface":"north"},
+          "south":{"uv":[7,0,10,1],"texture":"#south_body","cullface":"south"},
+          "west":{"uv":[7,0,8,1],"texture":"#edge_body","cullface":"west"},
+          "east":{"uv":[9,0,10,1],"texture":"#edge_body","cullface":"east"}
+    }
+  }
+  ],
+     "textures": {
+        "edge_body":  "erm:items/imoutobody_03",
+        "north_body": "erm:items/imoutobody_02",
+        "south_body": "erm:items/imoutobody_01"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 7.51, 5, 0 ],
+            "scale": [ 0.625, 0.825, 0.625 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [7.51, 5, 10 ],
+            "scale": [ 0.625, 0.825, 0.625 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 180, 5 ],
+            "translation": [ -6, 8, -4 ],
+            "scale": [ 0.8, 0.8, 0.8 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 180, 5 ],
+            "translation": [ 6, 8, -4 ],
+            "scale": [ 0.8, 0.8, 0.8 ]
+        },
+        "gui": {
+            "rotation": [ 15, -25, -5 ],
+            "translation": [ 3, 4, 0 ],
+            "scale": [ 0.7,0.9,1 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ -2, 4, -5],
+            "scale":[ 0.5, 0.5, 0.5]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 8, 8, 8],
+            "scale":[ 1, 1, 1]
+        }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "erm:item/imoutobody_blocking"
+        }
+    ]
+}

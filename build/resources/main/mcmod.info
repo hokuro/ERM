@@ -1,0 +1,21 @@
+[
+{
+    "modid": "chairs",
+    "name": "MoreMoreChairs",
+    "description": "addition ride entity",
+    "mcversion": "$mcversion",
+    "version": "$version",
+    "url": "",
+    "updateUrl": "",
+    "authors": [
+        "OhoNou"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [
+    ],
+    "parent":"",
+    "dependencies": [
+    ]
+}
+]

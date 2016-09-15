@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "erm:imoutoface" },
+    "facing=south": { "model": "erm:imoutoface","y": 180 },
+    "facing=west":  { "model": "erm:imoutoface","y": 270 },
+    "facing=east":  { "model": "erm:imoutoface","y": 90 }
+  }
+}

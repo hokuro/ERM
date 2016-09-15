@@ -1,0 +1,11 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+       "up"   : "erm:blocks/imouto_top",
+       "down" : "erm:blocks/imouto_neck",
+       "front": "erm:blocks/imouto_face",
+       "east" : "erm:blocks/imouto_sider",
+       "west" : "erm:blocks/imouto_sidel",
+       "south": "erm:blocks/imouto_back"
+    }
+}

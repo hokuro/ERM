@@ -1,0 +1,75 @@
+{
+	"texture":"littlegirl_head_defalut07.png",
+	"box1":{
+		"boxname":"SideTailSL1",
+		"tex_pos":[28,35],
+		"box_siz":[1,6,1],
+		"box_pos":[5.3,-6,2],
+		"rot_pos":[0,8,0],
+		"rotation":[0.1745329, 0, -0.1396263]
+	},
+	"box2":{
+		"boxname":"SideTailSL2",
+		"tex_pos":[32,35],
+		"box_siz":[1,6,1],
+		"box_pos":[5.3,-5,3],
+		"rot_pos":[0,8,0],
+		"rotation":[0.1745329, 0, -0.1396263]
+	},	
+	"box3":{
+		"boxname":"SideTailSL3",
+		"tex_pos":[0,2],
+		"box_siz":[1,3,3],
+		"box_pos":[4, -7.5, 0.5],
+		"rot_pos":[0,8,0],
+		"rotation":[0,0,0]
+	},
+	"box4":{
+		"boxname":"SideTailSL4",
+		"tex_pos":[0,0],
+		"box_siz":[1,1,1],
+		"box_pos":[-5.8, -7.3,2],
+		"rot_pos":[0, 8, 0],
+		"rotation":[0,0,0]
+	},
+	"box5":{
+		"boxname":"SideTailSR1",
+		"tex_pos":[36,35],
+		"box_siz":[1,6,1],
+		"box_pos":[-6.3, -6, 2],
+		"rot_pos":[0,8,0],
+		"rotation":[0.1745329, 0, 0.1396263]
+	},
+	"box6":{
+		"boxname":"SideTailSR2",
+		"tex_pos":[40,35],
+		"box_siz":[1,6,1],
+		"box_pos":[-6.3, -5, 3],
+		"rot_pos":[0,8,0],
+		"rotation":[0.1745329F, 0F, 0.1396263F]
+	},	
+	"box7":{
+		"boxname":"SideTailSL3",
+		"tex_pos":[0,2],
+		"box_siz":[1,3,3],
+		"box_pos":[-5, -7.5, 0.5],
+		"rot_pos":[0,8,0],
+		"rotation":[0,0,0]
+	},
+	"box8":{
+		"boxname":"SideTailSL4",
+		"tex_pos":[0,0],
+		"box_siz":[1,1,1],
+		"box_pos":[4.8, -7.3, 2],
+		"rot_pos":[0, 8, 0],
+		"rotation":[0,0,0]
+	},	
+	"box9":{
+		"boxname":"BackHair",
+		"tex_pos":[28,42],
+		"box_siz":[8, 4, 2],
+		"box_pos":[-4, 0, 2],
+		"rot_pos":[0, 8, 0],
+		"rotation":[0,0,0]
+	}
+}
